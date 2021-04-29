@@ -8,7 +8,7 @@ module.exports = () => {
     mongoose.connect(
       "mongodb://localhost:27017/til",
       {
-        dbName: "til"
+        dbName: "til"  
       },
       error => {
         if (error) {
